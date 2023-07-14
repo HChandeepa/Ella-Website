@@ -25,6 +25,11 @@ body {
     margin-left: 20vw;
 }
 
+.logo{
+    width: 5vw;
+    height: 6vw;
+}
+
 .navbar.navbar-expand-lg.navbar-light.bg-light {
     /*background-image: -webkit-linear-gradient(270deg, rgba(10, 54, 88, 1.00) 0%, rgba(66, 116, 151, 1.00) 54.51%, rgba(110, 188, 244, 1.00) 100%);
     background-image: -moz-linear-gradient(270deg, rgba(10, 54, 88, 1.00) 0%, rgba(66, 116, 151, 1.00) 54.51%, rgba(110, 188, 244, 1.00) 100%);
@@ -85,6 +90,11 @@ body {
     margin: 0px;
 }
 
+.fLogo{
+    width: 20vw;
+    height: 50vh;
+}
+
 .footerLinks {
     margin-top: 5vw;
 
@@ -127,12 +137,12 @@ a:hover {
     margin-left: 0.2vw;
 }
 
-footer {
+/*footer {
     background-image: -webkit-linear-gradient(270deg, rgba(126, 170, 199, 1.00) 0%, rgba(73, 106, 126, 1.00) 49.53%, rgba(14, 54, 80, 1.00) 100%);
     background-image: -moz-linear-gradient(270deg, rgba(126, 170, 199, 1.00) 0%, rgba(73, 106, 126, 1.00) 49.53%, rgba(14, 54, 80, 1.00) 100%);
     background-image: -o-linear-gradient(270deg, rgba(126, 170, 199, 1.00) 0%, rgba(73, 106, 126, 1.00) 49.53%, rgba(14, 54, 80, 1.00) 100%);
     background-image: linear-gradient(180deg, rgba(126, 170, 199, 1.00) 0%, rgba(73, 106, 126, 1.00) 49.53%, rgba(14, 54, 80, 1.00) 100%);
-}
+}*/
 
 @media only screen and (max-width: 992px) {
     footer {
