@@ -137,13 +137,6 @@ a:hover {
     margin-left: 0.2vw;
 }
 
-/*footer {
-    background-image: -webkit-linear-gradient(270deg, rgba(126, 170, 199, 1.00) 0%, rgba(73, 106, 126, 1.00) 49.53%, rgba(14, 54, 80, 1.00) 100%);
-    background-image: -moz-linear-gradient(270deg, rgba(126, 170, 199, 1.00) 0%, rgba(73, 106, 126, 1.00) 49.53%, rgba(14, 54, 80, 1.00) 100%);
-    background-image: -o-linear-gradient(270deg, rgba(126, 170, 199, 1.00) 0%, rgba(73, 106, 126, 1.00) 49.53%, rgba(14, 54, 80, 1.00) 100%);
-    background-image: linear-gradient(180deg, rgba(126, 170, 199, 1.00) 0%, rgba(73, 106, 126, 1.00) 49.53%, rgba(14, 54, 80, 1.00) 100%);
-}*/
-
 @media only screen and (max-width: 992px) {
     footer {
         text-align: center;
@@ -163,12 +156,8 @@ p{
     text-align: justify;
 }
 
-
-
-
 .img-fluid{
     border: #151515;
     border-radius:200px;
 
 }
-
