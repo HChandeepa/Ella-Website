@@ -6,15 +6,16 @@ body marquee {
     background-color: #154360;
     color: #FFFFFF;
 }
-
+/*
 body {
     background-color: #154360;
-}
+}*/
 
 
 /*----NavBar----*/
 .navbar.navbar-expand-lg.bg-body-tertiary {
     background-color: #154360;
+    
 }
 
 .nav-item {
@@ -152,6 +153,7 @@ a:hover {
 p{
     margin: 0px;
 }
+
 .p {
     text-align: justify;
 }
@@ -169,8 +171,9 @@ p{
 /* Make the image to responsive */
 .image {
   display: block;
-  width: 19.5vw;
+  width: 21vw;
   height: auto;
+  
 }
 
 /* The overlay effect - lays on top of the container and over the image */
@@ -180,7 +183,7 @@ p{
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
   color: #f1f1f1;
-  width: 100%;
+  width: 21vw;
   transition: .5s ease;
   opacity:0;
   color: white;
@@ -192,4 +195,12 @@ p{
 /* When you mouse over the container, fade in the overlay title */
 .container:hover .overlay {
   opacity: 1;
+}
+
+.link-position{
+    text-align: center;
+}
+.col-lg-4{
+    border-style:dotted;
+    border-color: #151515;
 }
