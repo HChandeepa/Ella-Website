@@ -169,8 +169,9 @@ p{
 /* Make the image to responsive */
 .image {
   display: block;
-  width: 19.5vw;
+  width: 21vw;
   height: auto;
+  
 }
 
 /* The overlay effect - lays on top of the container and over the image */
@@ -180,7 +181,7 @@ p{
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
   color: #f1f1f1;
-  width: 100%;
+  width: 21vw;
   transition: .5s ease;
   opacity:0;
   color: white;
@@ -192,4 +193,12 @@ p{
 /* When you mouse over the container, fade in the overlay title */
 .container:hover .overlay {
   opacity: 1;
+}
+
+.link-position{
+    text-align: center;
+}
+.col-lg-4{
+    border-style:dotted;
+    border-color: #151515;
 }
