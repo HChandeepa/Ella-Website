@@ -22,10 +22,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<<<<<<< HEAD
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
 	<title>Comment System PHP | National Coding</title>
+=======
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://github.com/HChandeepa/Ella/blob/main/web.css" rel="stylesheet" type="text/css">
+
+    <title>Ella</title>
+>>>>>>> 8d90f5d7ea9bc59dda74fa15e1cea0c3afff5abf
 </head>
 <body>
 	<div class="wrapper">
