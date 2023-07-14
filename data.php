@@ -31,7 +31,7 @@ if (isset($_POST['post_comment'])) {
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link href="web.css" rel="stylesheet" type="text/css">
+        <link href="web" rel="stylesheet" type="text/css">
 
         <title>Ella</title>
         >>>>>>> 8d90f5d7ea9bc59dda74fa15e1cea0c3afff5abf
