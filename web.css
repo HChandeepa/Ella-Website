@@ -15,7 +15,7 @@ body {
 /*----NavBar----*/
 .navbar.navbar-expand-lg.bg-body-tertiary {
     background-color: #154360;
-    
+
 }
 
 .nav-item {
@@ -84,6 +84,12 @@ body {
     color: #042631;
     margin-left: 0.2vw;
 }
+
+.imgBorder{
+    border: 2px solid black;
+}
+
+
 
 /*----Footer----*/
 .row {
@@ -173,7 +179,7 @@ p{
   display: block;
   width: 21vw;
   height: auto;
-  
+
 }
 
 /* The overlay effect - lays on top of the container and over the image */
