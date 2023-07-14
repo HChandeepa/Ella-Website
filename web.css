@@ -6,15 +6,16 @@ body marquee {
     background-color: #154360;
     color: #FFFFFF;
 }
-
+/*
 body {
     background-color: #154360;
-}
+}*/
 
 
 /*----NavBar----*/
 .navbar.navbar-expand-lg.bg-body-tertiary {
     background-color: #154360;
+    
 }
 
 .nav-item {
@@ -152,6 +153,7 @@ a:hover {
 p{
     margin: 0px;
 }
+
 .p {
     text-align: justify;
 }
