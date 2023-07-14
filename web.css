@@ -148,8 +148,9 @@ footer {
     text-align: justify;
 }
 
-<<<<<<< HEAD
-* { margin: 0; padding: 0; box-sizing: border-box; }
+
+
+/*{ margin: 0; padding: 0; box-sizing: border-box; }*/
 
 .wrapper {
 	background: white;
@@ -223,7 +224,7 @@ footer {
 .content p {
 	margin-bottom: 15px;
 	width: 450px;
-=======
+}
 .wrapper{
     background: red;
     border-radius: 10px;
@@ -232,5 +233,4 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
->>>>>>> 41fcde688035d1d5f9959233b1ccc20b78ea81d9
 }
