@@ -246,3 +246,9 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
+
+.img-fluid{
+    border: #151515;
+    border-radius:2000px;
+
+}
