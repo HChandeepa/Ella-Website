@@ -156,10 +156,14 @@ a:hover {
     }
 }
 
+p{
+    margin: 0px;
+}
 .p {
     text-align: justify;
 }
 
+<<<<<<< HEAD
 
 
 /*{ margin: 0; padding: 0; box-sizing: border-box; }*/
@@ -252,3 +256,5 @@ a:hover {
     border-radius:2000px;
 
 }
+=======
+>>>>>>> 553c0d1be5542def51ef5cba9ce3ccdd5269e630
