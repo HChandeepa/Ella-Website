@@ -146,3 +146,15 @@ footer {
 .p {
     text-align: justify;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+.wrapper{
+    background: red;
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
