@@ -349,7 +349,7 @@ p {
     font-size: 22px;
 }
 
-  .card1 button {
+.card1 button {
     border: none;
     outline: 0;
     padding: 12px;
@@ -415,7 +415,7 @@ body {
     font-family: Verdana, sans-serif;
 }
 
-.mySlides{
+.mySlides {
     display: none;
 
 }
@@ -493,16 +493,16 @@ img {
 .gallerycontainer {
     position: relative;
     width: 50%;
-  }
+}
 
-  /* Make the image responsive */
-  .gallerycontainer img {
+/* Make the image responsive */
+.gallerycontainer img {
     width: 100%;
     height: auto;
-  }
+}
 
-  /* Style the button and place it in the middle of the container/image */
-  .gallerycontainer .btn {
+/* Style the button and place it in the middle of the container/image */
+.gallerycontainer .btn {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -515,8 +515,8 @@ img {
     border: none;
     cursor: pointer;
     border-radius: 5px;
-  }
+}
 
-  .gallerycontainer .btn:hover {
+.gallerycontainer .btn:hover {
     background-color: black;
-  }
+}
