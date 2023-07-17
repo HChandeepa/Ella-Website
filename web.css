@@ -3,7 +3,7 @@
 
 /*----Body Head----*/
 body marquee {
-    background-color: #154360;
+    background-color: #fbfbfb;
     color: #FFFFFF;
 }
 
@@ -51,6 +51,13 @@ body marquee {
 /*----Carousel----*/
 .d-block {
     width: 100vw;
+}
+
+/*----marquee----*/
+
+.marquee{
+    display: grid;
+    grid-row: auto;
 }
 
 /*----Body----*/
@@ -244,7 +251,7 @@ p {
 }
 
 .col-lg-4 {
-    border-style: dotted;
+    border-style:none;
     border-color: #151515;
 }
 /* Styles for the popup container */
@@ -284,4 +291,77 @@ p {
     right: 10px;
     font-size: 20px;
     cursor: pointer;
+}
+
+.hotel{
+    text-align: center;
+    text-decoration: double;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .card button:hover {
+    opacity: 0.7;
+  }
+.container2 {
+  position: relative;
+  width: 50%;
+}
+
+.image2 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container2:hover .overlay {
+  opacity: 1;
+}
+
+.text2 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
