@@ -3,7 +3,7 @@
 
 /*----Body Head----*/
 body marquee {
-    background-color: #fbfbfb;
+    background-color: #232053;
     color: #FFFFFF;
 }
 
@@ -25,7 +25,7 @@ body marquee {
     height: 6vw;
 }
 
-.navbar.navbar-expand-lg.navbar-light.bg-light {
+.navbar.navbar-expand-lg.navbar-light {
     background-color: transparent;
 }
 
@@ -55,6 +55,10 @@ body marquee {
 }
 
 /*----Body----*/
+.main {
+    margin-top: 0;
+}
+
 .cardMain {
     width: 30vw;
     color: #021825;
@@ -83,11 +87,11 @@ body marquee {
     border-radius: 50px;
 }
 
-.memberLogo{
+.memberLogo {
     height: 20px;
 }
 
-.cardLogo{
+.cardLogo {
     display: flex;
     flex-direction: row;
     gap: 1rem;
@@ -123,27 +127,33 @@ body marquee {
     border: 2px solid black;
 }
 
-.aboutNsbmH3{
+.aboutNsbmH3 {
     margin: 20px;
 }
 
-.aboutNsbm{
+.aboutNsbm {
     margin: 40px;
 }
 
-.center{
+.imgNsbm {
+    width: 60vw;
+    border-radius: 50px;
+}
+
+.center {
     text-align: center;
 }
 
-.justify{
+.justify {
     text-align: justify;
 }
 
-.links{
+.links {
     font-style: italic;
     font-weight: 500;
     color: #5445df;
 }
+
 /*
 .links:visited{
     font-style: italic;
@@ -151,7 +161,7 @@ body marquee {
     color: #e4e4e4;
 }*/
 
-.links:hover{
+.links:hover {
     color: #17046b;
     margin: 0.2vw;
 }
@@ -238,7 +248,7 @@ p {
 
 /* Container needed to position the overlay. Adjust the width as needed */
 .container {
-    position:relative;
+    position: relative;
     width: 50%;
     max-width: 300px;
 }
@@ -281,6 +291,7 @@ p {
     border-style:none;
     border-color: #151515;
 }
+
 /* Styles for the popup container */
 .popup {
     display: none;
@@ -319,7 +330,6 @@ p {
     font-size: 20px;
     cursor: pointer;
 }
-
 .hotel{
     text-align: center;
     text-decoration: double;
