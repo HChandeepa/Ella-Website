@@ -490,26 +490,20 @@ img {
 
 /*button to gallery*/
 .gallerycontainer {
-    position: relative;
-    width: 50%;
-}
-
-/* Make the image responsive */
-.gallerycontainer img {
-    width: 100%;
-    height: auto;
+    position: absolute;
+    margin-top: 70%;
+    margin-left: 50%;
+    
 }
 
 /* Style the button and place it in the middle of the container/image */
 .gallerycontainer .btn {
-    position: absolute;
-    top: 50%;
-    left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: #555;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 500;
     padding: 12px 24px;
     border: none;
     cursor: pointer;
