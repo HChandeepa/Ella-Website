@@ -1,337 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Ella</title>
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
-    <link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css" />
-    <link href="web.css" rel="stylesheet" type="text/css" />
-    <link href="gallery.css" rel="stylesheet" type="text/css" />
-  </head>
 
-  <body>
-    <div style="background-color: #ffffff">
-      <marquee direction="left" height="25px" style="border: 10px"
-        >Welcome to most attractive place in sri lanka Today is:
-        <span class="date" id="date"></span
-      ></marquee>
-    </div>
-    <div>
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="index.html"
-          ><img src="images/Logo4.png" class="img-fluid" alt="Logo"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent1"
-          aria-controls="navbarSupportedContent1"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active navAlign">
-              <a class="nav-link" href="index.html"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                id="navbarDropdown1"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-                >Places to visit
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                <a class="dropdown-item" href="Ravana_Fall.html">Ravana Ella</a>
-                <a class="dropdown-item" href="Adisham_bungalow_haputale.html"
-                  >Adisham bungalow haputale</a
-                >
-                <a class="dropdown-item" href="Diyaluma_waterfall.html"
-                  >Diyaluma waterfall</a
-                >
-                <a class="dropdown-item" href="Nine_Arches_Bridge.html"
-                  >Nine Arches Bridge</a
-                >
-                <a class="dropdown-item" href="Little_Adam's_Peak.html"
-                  >Little Adam's Peak</a
-                >
-                <a class="dropdown-item" href="Dhowa_rock_temple.html"
-                  >Dhowa rock temple</a
-                >
-                <a class="dropdown-item" href="Lipton_seats.html"
-                  >Lipton seats</a
-                >
-                <a class="dropdown-item" href="Pilkington_point.html"
-                  >Pilkington point</a
-                >
-                <a
-                  class="dropdown-item"
-                  href="Kumbalwela_mahamevnawa_monastery.html"
-                  >Kumbalwela mahamevnawa monastery</a
-                >
-                <a class="dropdown-item" href="Ella_Rock.html">Ella Rock</a>
-                <a class="dropdown-item" href="Nil_Diya_Pokuna.html"
-                  >Nil Diya Pokuna</a
-                >
-                <a class="dropdown-item" href="Others.html">Others</a>
-                <a
-                  class="dropdown-item"
-                  href="Flying_Ravana_Adventures_Ella.html"
-                  >Flying Ravana Adventures</a
-                >
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="accomadation.html">Accomadation</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="aboutus.html">About us</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <div class="row">
-        <div class="dropdown">
-          <img
-            src="images/RE3.jpg"
-            alt="Cinque Terre"
-            width="100"
-            height="50"
-          />
-          <div class="dropdown-content">
-            <img
-              src="images/RE3.jpg"
-              alt="Cinque Terre"
-              width="300"
-              height="200"
-            />
-            <div class="desc">Beautiful Cinque Terre</div>
-          </div>
-        </div>
-        <div class="dropdown">
-          <img src="images/2.jpg" alt="Cinque Terre" width="100" height="50" />
-          <div class="dropdown-content">
-            <img
-              src="images/2.jpg"
-              alt="Cinque Terre"
-              width="300"
-              height="200"
-            />
-            <div class="desc">Beautiful Cinque Terre</div>
-          </div>
-        </div>
-        <div class="dropdown">
-          <img
-            src="images/DE4.jpg"
-            alt="Cinque Terre"
-            width="100"
-            height="50"
-          />
-          <div class="dropdown-content">
-            <img
-              src="images/DE4.jpg"
-              alt="Cinque Terre"
-              width="300"
-              height="200"
-            />
-            <div class="desc">Beautiful Cinque Terre</div>
-          </div>
-        </div>
-        <div class="dropdown">
-          <img
-            src="images/DH2.jpg"
-            alt="Cinque Terre"
-            width="100"
-            height="50"
-          />
-          <div class="dropdown-content">
-            <img
-              src="images/DH2.jpg"
-              alt="Cinque Terre"
-              width="300"
-              height="200"
-            />
-            <div class="desc">Beautiful Cinque Terre</div>
-          </div>
-        </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Ella</title>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
+  <link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css" />
+  <link href="web.css" rel="stylesheet" type="text/css" />
+  <link href="gallery.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div style="background-color: #ffffff">
+    <marquee direction="left" height="25px" style="border: 10px">Welcome to most attractive place in sri lanka Today is:
+      <span class="date" id="date"></span>
+    </marquee>
+  </div>
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="index.html"><img src="images/Logo4.png" class="img-fluid" alt="Logo" /></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+        aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active navAlign">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdown1" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Places to visit
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+              <a class="dropdown-item" href="Ravana_Fall.html">Ravana Ella</a>
+              <a class="dropdown-item" href="Adisham_bungalow_haputale.html">Adisham bungalow haputale</a>
+              <a class="dropdown-item" href="Diyaluma_waterfall.html">Diyaluma waterfall</a>
+              <a class="dropdown-item" href="Nine_Arches_Bridge.html">Nine Arches Bridge</a>
+              <a class="dropdown-item" href="Little_Adam's_Peak.html">Little Adam's Peak</a>
+              <a class="dropdown-item" href="Dhowa_rock_temple.html">Dhowa rock temple</a>
+              <a class="dropdown-item" href="Lipton_seats.html">Lipton seats</a>
+              <a class="dropdown-item" href="Pilkington_point.html">Pilkington point</a>
+              <a class="dropdown-item" href="Kumbalwela_mahamevnawa_monastery.html">Kumbalwela mahamevnawa monastery</a>
+              <a class="dropdown-item" href="Ella_Rock.html">Ella Rock</a>
+              <a class="dropdown-item" href="Nil_Diya_Pokuna.html">Nil Diya Pokuna</a>
+              <a class="dropdown-item" href="Others.html">Others</a>
+              <a class="dropdown-item" href="Flying_Ravana_Adventures_Ella.html">Flying Ravana Adventures</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="accomadation.html">Accomadation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About us</a>
+          </li>
+        </ul>
       </div>
-      <div class="row">
-        <div class="dropdown">
-          <img
-            src="images/DR6.jpg"
-            alt="Cinque Terre"
-            width="100"
-            height="50"
-          />
-          <div class="dropdown-content">
-            <img
-              src="images/DR6.jpg"
-              alt="Cinque Terre"
-              width="300"
-              height="200"
-            />
-            <div class="desc">Beautiful Cinque Terre</div>
-          </div>
-        </div>
-        <div class="dropdown">
-          <img
-            src="images/DR5.jpg"
-            alt="Cinque Terre"
-            width="100"
-            height="50"
-          />
-          <div class="dropdown-content">
-            <img
-              src="images/DR5.jpg"
-              alt="Cinque Terre"
-              width="300"
-              height="200"
-            />
-            <div class="desc">Beautiful Cinque Terre</div>
-          </div>
-        </div>
-        <div class="dropdown">
-          <img src="images/E4.jpg" alt="Cinque Terre" width="100" height="50" />
-          <div class="dropdown-content">
-            <img
-              src="images/E4.jpg"
-              alt="Cinque Terre"
-              width="300"
-              height="200"
-            />
-            <div class="desc">Beautiful Cinque Terre</div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="dropdown">
-          <img
-            src="images/FR3.jpg"
-            alt="Cinque Terre"
-            width="100"
-            height="50"
-          />
-          <div class="dropdown-content">
-            <img
-              src="images/FR3.jpg"
-              alt="Cinque Terre"
-              width="300"
-              height="200"
-            />
-            <div class="desc">Beautiful Cinque Terre</div>
-          </div>
-        </div>
-        <div class="dropdown">
-          <img
-            src="images/FR6.jpg"
-            alt="Cinque Terre"
-            width="100"
-            height="50"
-          />
-          <div class="dropdown-content">
-            <img
-              src="images/FR6.jpg"
-              alt="Cinque Terre"
-              width="300"
-              height="200"
-            />
-            <div class="desc">Beautiful Cinque Terre</div>
-          </div>
-        </div>
-        <div class="dropdown">
-          <img
-            src="images/Nn5.jpg"
-            alt="Cinque Terre"
-            width="100"
-            height="50"
-          />
-          <div class="dropdown-content">
-            <img
-              src="images/Nn5.jpg"
-              alt="Cinque Terre"
-              width="300"
-              height="200"
-            />
-            <div class="desc">Beautiful Cinque Terre</div>
-          </div>
-        </div>
-        <div class="dropdown">
-          <img
-            src="images/MM1.jpg"
-            alt="Cinque Terre"
-            width="100"
-            height="50"
-          />
-          <div class="dropdown-content">
-            <img
-              src="images/MM1.jpg"
-              alt="Cinque Terre"
-              width="300"
-              height="200"
-            />
-            <div class="desc">Beautiful Cinque Terre</div>
-          </div>
-        </div>
-        <div class="dropdown">
-          <img
-            src="images/LS1.jpg"
-            alt="Cinque Terre"
-            width="100"
-            height="50"
-          />
-          <div class="dropdown-content">
-            <img
-              src="images/LS1.jpg"
-              alt="Cinque Terre"
-              width="300"
-              height="200"
-            />
-            <div class="desc">Beautiful Cinque Terre</div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="dropdown">
-          <img
-            src="images/LP6.jpg"
-            alt="Cinque Terre"
-            width="100"
-            height="50"
-          />
-          <div class="dropdown-content">
-            <img
-              src="images/LP6.jpg"
-              alt="Cinque Terre"
-              width="300"
-              height="200"
-            />
-            <div class="desc">Beautiful Cinque Terre</div>
-          </div>
-        </div>
-        <div class="col-lg-3">Content goes here</div>
-        <div class="col-lg-3">Content goes here</div>
-        <div class="col-lg-3">Content goes here</div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4">Content goes here</div>
-        <div class="col-lg-4">Content goes here</div>
-        <div class="col-lg-4">Content goes here</div>
+    </nav>
+    <br>
+    
+
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="img_forest.jpg">
+          <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
       </div>
     </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="img_lights.jpg">
+          <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+    </div>
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="img_5terre.jpg">
+          <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+    </div>
+
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="img_forest.jpg">
+          <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="img_lights.jpg">
+          <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+    </div>
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="img_5terre.jpg">
+          <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+    </div>
+
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="img_forest.jpg">
+          <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="img_lights.jpg">
+          <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+    </div>
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="img_5terre.jpg">
+          <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+    </div>
+
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="img_forest.jpg">
+          <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="img_lights.jpg">
+          <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+    </div>-->
+
+    <div class="row1">
+      <div class="column1">
+        <div class="dropdown">
+          <img src="images/7.jpg" alt="Cinque Terre" width="50%" />
+          <div class="dropdown-content">
+            <img src="images/7.jpg" alt="Cinque Terre" width="100%" />
+            <div class="desc">Beautiful Cinque Terre</div>
+          </div>
+        </div>
+        <div class="dropdown">
+          <img src="images/Ni1.jpg" alt="Cinque Terre" width="50%" />
+          <div class="dropdown-content">
+            <img src="images/Ni1.jpg" alt="Cinque Terre" width="100%" />
+            <div class="desc">Beautiful Cinque Terre</div>
+          </div>
+        </div>
+        <div class="dropdown">
+          <img src="images/ER1.jpg" alt="Cinque Terre" width="50%" />
+          <div class="dropdown-content">
+            <img src="images/ER1.jpg" alt="Cinque Terre" width="100%" />
+            <div class="desc">Beautiful Cinque Terre</div>
+          </div>
+        </div>
+        <div class="dropdown">
+          <img src="images/HP5.jpg" alt="Cinque Terre" width="50%" />
+          <div class="dropdown-content">
+            <img src="images/HP5.jpg" alt="Cinque Terre" width="100%" />
+            <div class="desc">Beautiful Cinque Terre</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column1">
+        <div class="dropdown">
+          <img src="images/LS4.jpg" alt="Cinque Terre" width="50%" />
+          <div class="dropdown-content">
+            <img src="images/LS4.jpg" alt="Cinque Terre" width="100%" />
+            <div class="desc">Beautiful Cinque Terre</div>
+          </div>
+        </div>
+        <div class="dropdown">
+          <img src="images/MM5.jpg" alt="Cinque Terre" width="50%" />
+          <div class="dropdown-content">
+            <img src="images/MM5.jpg" alt="Cinque Terre" width="100%" />
+            <div class="desc">Beautiful Cinque Terre</div>
+          </div>
+        </div>
+        <div class="dropdown">
+          <img src="images/FR2.jpg" alt="Cinque Terre" width="50%" />
+          <div class="dropdown-content">
+            <img src="images/FR2.jpg" alt="Cinque Terre" width="100%" />
+            <div class="desc">Beautiful Cinque Terre</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="clearfix"></div>
+
     <!--gallery old pattern-------------------------------------------------------------------------------------->
     <!--<div class="row">
         <div class="column">
@@ -351,9 +252,7 @@
       <!-- The expanding image container -->
     <div class="container">
       <!-- Close the image -->
-      <span onclick="this.parentElement.style.display='none'" class="closebtn"
-        >&times;</span
-      >
+      <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
 
       <!-- Expanded image -->
       <img id="expandedImg" style="width: 100%" />
@@ -363,7 +262,7 @@
     </div>
     <!------------------------------------------------------------------------------------------------------------------->
 
-    <br />
+    <br><br>
     <footer>
       <div class="row">
         <div class="col-lg-3">
@@ -379,20 +278,15 @@
 
         <div class="col-lg-3 footerLinks">
           <a
-            href="https://www.google.com/maps/place/Ella/@6.8653089,81.0370473,15z/data=!3m1!4b1!4m6!3m5!1s0x3ae465955bc09a25:0xbdfadcdadec487fb!8m2!3d6.8666988!4d81.046553!16s%2Fm%2F0113hm8d!5m1!1e4?entry=ttu"
-            ><span style="color: rgb(0, 0, 0)">📍</span> Ella, Sri Lanka</a
-          ><br />
+            href="https://www.google.com/maps/place/Ella/@6.8653089,81.0370473,15z/data=!3m1!4b1!4m6!3m5!1s0x3ae465955bc09a25:0xbdfadcdadec487fb!8m2!3d6.8666988!4d81.046553!16s%2Fm%2F0113hm8d!5m1!1e4?entry=ttu"><span
+              style="color: rgb(0, 0, 0)">📍</span> Ella, Sri Lanka</a><br />
 
-          <span style="color: rgb(0, 0, 0)">☏</span> <b>Tourism Hotline</b> :<a
-            href="tel:1912"
-          >
-            1912</a
-          ><br />
+          <span style="color: rgb(0, 0, 0)">☏</span> <b>Tourism Hotline</b> :<a href="tel:1912">
+            1912</a><br />
 
           <span style="color: rgb(0, 0, 0)">☏</span>
           <b>Sri Lanka Tourism Police</b> :<a href="tel:+94112421052">
-            +94 11 242 1052</a
-          >
+            +94 11 242 1052</a>
         </div>
         <div class="col-lg-3 footerButton">
           <button class="buttonFooter">About Developers</button>
@@ -406,5 +300,6 @@
     <script src="j.js"></script>
     <script src="gallery.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+</body>
+
 </html>

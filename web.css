@@ -490,26 +490,25 @@ img {
 
 /*button to gallery*/
 .gallerycontainer {
-    position: relative;
-    width: 50%;
+    position: absolute;
+    margin-top: 70%;
+    margin-left: 50%;
+
 }
 
-/* Make the image responsive */
-.gallerycontainer img {
-    width: 100%;
-    height: auto;
+.btn{
+    width: 50vw;
+    height: 15vw;
 }
 
 /* Style the button and place it in the middle of the container/image */
 .gallerycontainer .btn {
-    position: absolute;
-    top: 50%;
-    left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: #555;
     color: white;
-    font-size: 16px;
+    font-size: 4vw;
+    font-weight: 500;
     padding: 12px 24px;
     border: none;
     cursor: pointer;
@@ -524,25 +523,28 @@ img {
 
 * {
     box-sizing: border-box;
-  }
+}
 
 
-  .row1 {
-    display: -ms-flexbox; /* IE 10 */
+.row1 {
+    display: -ms-flexbox;
+    /* IE 10 */
     display: flex;
-    -ms-flex-wrap: wrap; /* IE 10 */
+    -ms-flex-wrap: wrap;
+    /* IE 10 */
     flex-wrap: wrap;
     padding: 0 4px;
-  }
+}
 
-  /* Create two equal columns that sits next to each other */
-  .column {
-    -ms-flex: 50%; /* IE 10 */
+/* Create two equal columns that sits next to each other */
+.column {
+    -ms-flex: 50%;
+    /* IE 10 */
     flex: 50%;
     padding: 0 4px;
-  }
+}
 
-  .column img {
+.column img {
     margin-top: 8px;
     vertical-align: middle;
   }
