@@ -1,16 +1,36 @@
 .galleryGrid {
-  display: -ms-flexbox; /* IE 10 */
+  display: -ms-flexbox;
+  /* IE 10 */
   display: flex;
-  -ms-flex-wrap: wrap; /* IE 10 */
+  -ms-flex-wrap: wrap;
+  /* IE 10 */
   flex-wrap: wrap;
   padding: 0 4px;
   position: relative;
 }
 
 
+.row1 {
+  display: -ms-flexbox;
+  /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap;
+  /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
 
+.column1 {
+  -ms-flex: 10%;
+  /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
 
-
+.column1 img {
+  margin-top: 3px;
+  vertical-align:  middle;
+}
 
 
 
@@ -81,7 +101,7 @@
 
 .dropdown-content {
   display: none;
-  position: absolute;
+  position: relative;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
