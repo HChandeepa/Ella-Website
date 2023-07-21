@@ -139,6 +139,11 @@ body marquee {
     width: 60vw;
     border-radius: 50px;
 }
+.btn-nsbm{
+    width: 10vw;
+    height: 5vw;
+    border-radius: 30%;
+}
 
 .center {
     text-align: center;
