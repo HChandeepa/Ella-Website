@@ -402,14 +402,46 @@ img {
 }
 
 /* Caption text */
-.text {
+.text1{
     color: #f2f2f2;
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
     width: 100%;
-    text-align: center;
+    text-align:left;
+    top: 2px;
+}
+.text2{
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position:absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align:right;
+    bottom: 20px;
+}
+.text3{
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align:left;
+
+}
+.quote1{
+    font-size:5vw;
+
+}
+.quote2{
+    font-size:5vw;
+    color: #151515;
+}
+.quote3{
+    font-size:5vw;
 }
 
 /* Number text (1/3 etc) */
