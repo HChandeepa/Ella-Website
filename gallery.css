@@ -169,13 +169,17 @@ div.desc {
 
 /*gallery effects*/
 .responsive {
-  display: -ms-flexbox;
+  display:block;
   /* IE 10 */
   display: flex;
   -ms-flex-wrap: wrap;
   /* IE 10 */
   flex-wrap: wrap;
   padding: 0 4px;
+  width: 50%;
+  min-height: 100px;
+  position: relative;
+  vertical-align: top;
 }
 .gallery {
   -ms-flex: 50%;
