@@ -166,3 +166,20 @@ div.desc {
   display: table;
   clear: both;
 }
+
+/*gallery effects*/
+.responsive {
+  display: -ms-flexbox;
+  /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap;
+  /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.gallery {
+  -ms-flex: 50%;
+  /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
