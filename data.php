@@ -56,7 +56,8 @@ if (isset($_POST['post_comment'])) {
 
         if ($result->num_rows > 0) {
             // output data of each row
-            while ($row = $result->fetch_assoc()) {
+            while ($row = $result->fetch_assoc()) 
+            {
 
                 ?>
                 <h3>
@@ -66,8 +67,10 @@ if (isset($_POST['post_comment'])) {
                     <?php echo $row['message']; ?>
                 </p>
 
-            <?php }
-        } ?>
+                <?php 
+            }
+        }
+        ?>
     </div>
 </body>
 
