@@ -26,20 +26,21 @@ body marquee {
 }
 
 .navbar.navbar-expand-lg.navbar-light {
-    background-color: transparent;
+    background-color: #d4c5e6;
 }
 
 .dropdown-menu {
-    background-image: -webkit-linear-gradient(270deg, rgba(10, 54, 88, 1.00) 0%, rgba(66, 116, 151, 1.00) 54.51%, rgba(110, 188, 244, 1.00) 100%);
-    background-image: -moz-linear-gradient(270deg, rgba(10, 54, 88, 1.00) 0%, rgba(66, 116, 151, 1.00) 54.51%, rgba(110, 188, 244, 1.00) 100%);
-    background-image: -o-linear-gradient(270deg, rgba(10, 54, 88, 1.00) 0%, rgba(66, 116, 151, 1.00) 54.51%, rgba(110, 188, 244, 1.00) 100%);
-    background-image: linear-gradient(180deg, rgba(10, 54, 88, 1.00) 0%, rgba(66, 116, 151, 1.00) 54.51%, rgba(110, 188, 244, 1.00) 100%);
+    background-color: #9db1d4;
 }
 
 .dropdown-item:hover {
     background-color: #07304b;
     color: #31a2cf;
 }
+.nav-item.dropdown{
+    cursor: pointer;
+}
+
 
 
 /*----Carousel----*/
@@ -69,6 +70,7 @@ body marquee {
     grid-template-columns: repeat(auto-fill, 350px);
     gap: 1rem;
     justify-content: center;
+    align
 }
 
 .memberCard {
@@ -550,4 +552,26 @@ img {
 .column img {
     margin-top: 8px;
     vertical-align: middle;
+  }
+
+/* top button*/
+
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+
+  #myBtn:hover {
+    background-color: #555;
   }

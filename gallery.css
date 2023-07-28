@@ -29,7 +29,7 @@
 
 .column1 img {
   margin-top: 3px;
-  vertical-align:  middle;
+  vertical-align: middle;
 }
 
 
@@ -169,7 +169,7 @@ div.desc {
 
 /*gallery effects*/
 .responsive {
-  display:block;
+  display: block;
   /* IE 10 */
   display: flex;
   -ms-flex-wrap: wrap;
@@ -181,6 +181,7 @@ div.desc {
   position: relative;
   vertical-align: top;
 }
+
 .gallery {
   -ms-flex: 50%;
   /* IE 10 */
@@ -188,4 +189,26 @@ div.desc {
   padding: 0 4px;
   width: 50%;
   min-height: 100px;
+}
+
+/* top button*/
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
 }
