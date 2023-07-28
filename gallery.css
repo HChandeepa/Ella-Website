@@ -29,7 +29,7 @@
 
 .column1 img {
   margin-top: 3px;
-  vertical-align:  middle;
+  vertical-align: middle;
 }
 
 
@@ -169,7 +169,7 @@ div.desc {
 
 /*gallery effects*/
 .responsive {
-  display:block;
+  display: block;
   /* IE 10 */
   display: flex;
   -ms-flex-wrap: wrap;
@@ -181,6 +181,7 @@ div.desc {
   position: relative;
   vertical-align: top;
 }
+
 .gallery {
   -ms-flex: 50%;
   /* IE 10 */
