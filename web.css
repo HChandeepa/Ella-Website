@@ -3,7 +3,7 @@
 
 /*----Body Head----*/
 body marquee {
-    background-color: #232053;
+    background-color: #5d5898;
     color: #FFFFFF;
 }
 
@@ -518,18 +518,20 @@ img {
 .galleryButton .btn {
     /*transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);*/
-    background-color: #555;
-    color: white;
+    /*background-color: #555;*/
+    background-color:#998b8b;
+    color: rgb(253, 253, 253);
     font-size: 4vw;
     font-weight: 500;
     padding: 12px 24px;
-    border: none;
+    border:rgb(14, 7, 7);
     cursor: pointer;
-    border-radius: 5px;
+    border-radius:10%;
+    border-width: 2px;
 }
 
 .galleryButton .btn:hover {
-    background-color: black;
+    background-color:#bbb;
 }
 
 /*index gallery*/
@@ -547,6 +549,8 @@ img {
     /* IE 10 */
     flex-wrap: wrap;
     padding: 0 4px;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 /* Create two equal columns that sits next to each other */
