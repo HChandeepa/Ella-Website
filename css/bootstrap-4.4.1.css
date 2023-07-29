@@ -473,7 +473,7 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 50vw;
   height: auto;
 }
 
