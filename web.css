@@ -70,7 +70,7 @@ body marquee {
     grid-template-columns: repeat(auto-fill, 350px);
     gap: 1rem;
     justify-content: center;
-    
+
 }
 
 .memberCard {
@@ -149,7 +149,7 @@ body marquee {
 
 .center {
     text-align: center;
-    
+
 }
 
 .justify {
@@ -189,6 +189,13 @@ body marquee {
 .footerLinks {
     margin-top: 1vw;
 
+}
+.footer{
+background-color: #d4c5e6;
+}
+.imgfluid{
+    height: 5vw;
+    width: 5vw;
 }
 
 .footerButton {
@@ -552,7 +559,7 @@ img {
     padding: 0 4px;
     margin-left: 10vw;
     margin-right: 10vw;
-    
+
 }
 
 /* Create two equal columns that sits next to each other */
