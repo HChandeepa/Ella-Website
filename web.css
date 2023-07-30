@@ -51,8 +51,7 @@ body marquee {
 /*----marquee----*/
 
 .marquee {
-    display: grid;
-    grid-row: auto;
+    background-color: #cfc7d4;
 }
 
 /*----Body----*/
