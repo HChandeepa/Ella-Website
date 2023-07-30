@@ -179,6 +179,157 @@
             </div>
         </div>
 
+<!-----------------------------------Comment section ------------------------------------------>
+     <!--   <div>
+
+            <?php
+
+            $nameErr = "";
+            $name = $comment = "";
+
+            if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                if (empty($_POST["name"])) {
+                    $nameErr = "Name is required";
+                } else {
+                    $name = test_input($_POST["name"]);
+                    // check if name only contains letters and whitespace
+                    if (!preg_match("/^[a-zA-Z]*$/", $name)) {
+                        $nameErr = "Only letters and white space allowed";
+                    }
+                }
+
+                if (empty($_POST["comment"])) {
+                    $comment = "";
+                } else {
+                    $comment = test_input($_POST["comment"]);
+                }
+            }
+
+            function test_input($data)
+            {
+                $data = trim($data);
+                $data = stripslashes($data);
+                $data = htmlspecialchars($data);
+                return $data;
+            }
+
+            $name = test_input($_POST["name"]);
+            $comment = $_POST["comment"];
+
+            if ($name !== "" && $comment !== "") {
+
+                $server = "sql208.infinityfree.com";
+                $user = "if0_34704905";
+                $pw = "ExDGuETACYVWH12";
+                $db = "if0_34704905_web";
+                $connection = new mysqli($server, $user, $pw, $db);
+
+                $sql = "INSERT INTO user(name,comment) VALUES ('$name','$comment')";
+
+
+                if ($connection->query($sql) == TRUE) {
+                    echo ("");
+                } else {
+                    echo ("");
+                }
+
+                $connection->close();
+            }
+
+            ?>
+
+            <h3>Tell us your Experience</h3>
+            <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
+                <table>
+                    <tr>
+                        <td>
+                            Name
+                        </td>
+                        <td>
+                            <input type="text" name="name">
+                            <span class="error" style="color:red;">*
+                                <?php echo $nameErr; ?>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Comment
+                        </td>
+                        <td>
+                            <textarea name="comment" rows="5" cols="25"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" name="submit" value="Submit">
+                        </td>
+                        <td>
+                            <input type="reset" name="reset" value="Clear">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+
+            <?php
+            echo "<br>";
+            echo "<br>";
+            echo "<br>";
+            echo "<h2>Your Input:</h2>";
+
+                $server = "sql208.infinityfree.com";
+                $user = "if0_34704905";
+                $pw = "ExDGuETACYVWH12";
+                $db = "if0_34704905_web";
+                $connection = new mysqli($server, $user, $pw, $db);
+
+                $sql2 = "SELECT * FROM user";
+                $result = $connection->query($sql2);
+
+                if ($result->num_rows > 0) {
+
+                    while ($row = $result->fetch_assoc()) {
+            ?>
+                        <div class="comment">
+                            <h5>
+                                <?php echo $row['name']; ?>
+                            </h5>
+                            <div class="comments-container">
+                                <p>
+                                    <?php echo $row['comment']; ?>
+                                </p>
+                            </div>
+                        </div>
+            <?php
+                    }
+                }
+            
+
+            ?>
+            <style>
+                .comments-container {
+                    margin: 20px;
+                    width: 90vw;
+                    text-align: justify;
+                    overflow: hidden;
+                    white-space: normal;
+                    word-break: break-word;
+                }
+
+                .comment {
+                    margin: 10px;
+                    border: 1px solid #615c5c;
+
+                }
+            </style>
+
+        </div>
+
+
+-->
+
+
+
         <br><br>
         <footer class="footer">
             <div class="row">
@@ -191,7 +342,6 @@
                     <p class="quicklinks"><a href="accomadation.html">Accomadation</a></p>
                     <p class="quicklinks"><a href="aboutus.html">About us</a></p>
                 </div>
-
 
                 <div class="col-lg-3 footerLinks">
                     <a
