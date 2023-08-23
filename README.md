@@ -7,7 +7,11 @@ This project was done by University Of Plymouth 1st year undergradudates as a gr
 Technology Stack
 
 -Front-End:HTML, CSS ,JavaScript
+
 -Back-End:PHP ,JavaScript
+
 -Version Controllers: Github
+
 -IDEs: Visual Studio Code
+
 -Host:Infinityfree.com
