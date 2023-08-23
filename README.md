@@ -1,3 +1,5 @@
 # Ella-Website
 Web Development Project- Ella
-This is a Group Project done by Plymouth university students.
+Website Link: http://ellavisit.great-site.net/
+
+This project was done by University Of Plymouth 1st year undergradudates as a group project.
